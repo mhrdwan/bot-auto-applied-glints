@@ -17,18 +17,21 @@ Deskripsi singkat proyek disini.
     cd bot-auto-applied-glints
     ```
 
-3. Buka file `isian.js` menggunakan editor teks favorit Anda.
 
-4. Ganti const urlpencarian = 'https://glints.com/id/opportunities/jobs/explore?keyword=react&country=ID&locationName=All+Cities%2FProvinces' dengan url yang ingin kalian scraping
+3. Buka https://glints.com/id/opportunities/jobs/explore?country=ID&locationName=All+Cities%2FProvinces kemudian pilih filter / job yang ingin di scrap kemudian copy urlnya
 
-5. Buka file `functionlamar.js` 
+4. Buka file `isian.js` menggunakan editor teks favorit Anda.
+   
+5. Ganti const urlpencarian = 'https://glints.com/id/opportunities/jobs/explore?keyword=react&country=ID&locationName=All+Cities%2FProvinces' dengan url yang ingin kalian scraping
 
-6. ganti RidwanTech dengan user pc anda 
+6. Buka file `functionlamar.js` 
+
+7. ganti RidwanTech dengan user pc anda 
 
     ```javascript
     'C:\\Users\\RidwanTech\\AppData\\Local\\Google\\Chrome\\User Data';
     ```
-7. Jalankan Script
+8. Jalankan Script
     ```javascript
     node .
     ```
