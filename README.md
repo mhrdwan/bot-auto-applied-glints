@@ -22,7 +22,7 @@ cd bot-auto-applied-glints
 https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpcpajaibco
 ```
 
-4. Login akun glints kalian `https://glints.com/`
+4. Login akun glints kalian https://glints.com/
 
 5. Setelah login akun glints , kalian buka extension yang sudah kalian download tadi , kemudian klik `Export` dan tunggu download selesai
 
@@ -32,7 +32,7 @@ https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpc
 
 8. Buka file `isian.js` menggunakan editor teks favorit Anda.
 
-9. Ganti const urlpencarian = 'https://glints.com/id/opportunities/jobs/explore?keyword=react&country=ID&locationName=All+Cities%2FProvinces' dengan url yang ingin kalian scraping
+9. Ganti const urlpencarian = https://glints.com/id/opportunities/jobs/explore?keyword=react&country=ID&locationName=All+Cities%2FProvinces dengan url yang ingin kalian scraping
 
 10. Buka terminal kalian dan ketikan
 
