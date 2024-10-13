@@ -1,6 +1,6 @@
 # Bot Glints Auto Applied
 
-Deskripsi singkat proyek disini.
+Bot untuk mempermudah kalian lamar di glints
 
 ## Cara Install
 
