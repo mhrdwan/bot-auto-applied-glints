@@ -6,15 +6,15 @@ Deskripsi singkat proyek disini.
 
 1. Clone repositori :
 
-   ```bash
-   git clone https://github.com/mhrdwan/bot-auto-applied-glints
-   ```
+```bash
+git clone https://github.com/mhrdwan/bot-auto-applied-glints
+```
 
 2. Masuk ke direktori proyek:
 
-   ```bash
-   cd bot-auto-applied-glints
-   ```
+```bash
+cd bot-auto-applied-glints
+```
 
 3. Download extension untuk mengambil cookies dari glints
 
