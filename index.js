@@ -6,11 +6,9 @@ const cookieData = require("./cookies.json");
 (async () => {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
-  await page.setCookie({
-    name: "session",
-    value: Cookies,
-    domain: "glints.com",
-  });
+  const cookies = cookieData.cookies;
+
+  await page.setCookie(...cookies);
   await page.setUserAgent(
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
   );
