@@ -34,15 +34,13 @@ https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpc
 
 9. Ganti const urlpencarian = 'https://glints.com/id/opportunities/jobs/explore?keyword=react&country=ID&locationName=All+Cities%2FProvinces' dengan url yang ingin kalian scraping
 
-10. Buka file `functionlamar.js`
-
-11. Buka terminal kalian dan ketikan
+10. Buka terminal kalian dan ketikan
 
 ```bash
 npm install
 ```
 
-12. Jalankan Script
+11. Jalankan Script
 
 ```bash
 node index.js
