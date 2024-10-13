@@ -39,7 +39,7 @@ https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpc
 11. Buka terminal kalian dan ketikan
 
 ```bash
-    npm install
+npm install
 ```
 
 12. Jalankan Script
