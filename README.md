@@ -16,23 +16,32 @@ Deskripsi singkat proyek disini.
    cd bot-auto-applied-glints
    ```
 
-3. Buka https://glints.com/id/opportunities/jobs/explore?country=ID&locationName=All+Cities%2FProvinces kemudian pilih filter / job yang ingin di scrap kemudian copy urlnya
+3. Download extension untuk mengambil cookies dari glints
 
-4. Buka file `isian.js` menggunakan editor teks favorit Anda.
-5. Ganti const urlpencarian = 'https://glints.com/id/opportunities/jobs/explore?keyword=react&country=ID&locationName=All+Cities%2FProvinces' dengan url yang ingin kalian scraping
+```bash
+https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpcpajaibco
+```
 
-6. Buka file `functionlamar.js`
+4. Login akun glints kalian `https://glints.com/`
 
-7. ```bash
-   npm install
-   ```
+5. Setelah login akun glints , kalian buka extension yang sudah kalian download tadi , kemudian klik `Export` dan tunggu download selesai
 
-8. Jalankan Script
-    ```javascript
-    node .
+6. Buka hasil export tadi kemudian copy dan pastekan ke file `cookies.json`
+
+7. Buka https://glints.com/id/opportunities/jobs/explore?country=ID&locationName=All+Cities%2FProvinces kemudian pilih filter / job yang ingin di scrap kemudian copy urlnya
+
+8. Buka file `isian.js` menggunakan editor teks favorit Anda.
+
+9. Ganti const urlpencarian = 'https://glints.com/id/opportunities/jobs/explore?keyword=react&country=ID&locationName=All+Cities%2FProvinces' dengan url yang ingin kalian scraping
+
+10. Buka file `functionlamar.js`
+
+11. ```bash
+    npm install
     ```
 
+12. Jalankan Script
 
-
-
-````
+```bash
+node index.js
+```

@@ -80,5 +80,5 @@ async function Lamar() {
     console.error("An error occurred:", error);
   }
 }
-Lamar();
+// Lamar();
 module.exports = Lamar;

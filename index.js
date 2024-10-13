@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 const urlpencarian = require("./isian");
 const fs = require("fs");
-// const Lamar = require("./functionlamar");
+const Lamar = require("./functionlamar");
 const cookieData = require("./cookies.json");
 (async () => {
   const browser = await puppeteer.launch({ headless: true });
@@ -126,5 +126,5 @@ const cookieData = require("./cookies.json");
 
   console.log("Data berhasil ditambahkan ke listsemua.json");
   console.log("Menjalankan Function Lamar...");
-  // await Lamar()
+  await Lamar()
 })();
