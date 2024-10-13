@@ -36,7 +36,9 @@ https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpc
 
 10. Buka file `functionlamar.js`
 
-11. ```bash
+11. Buka terminal kalian dan ketikan
+
+````bash
     npm install
     ```
 
@@ -44,4 +46,4 @@ https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpc
 
 ```bash
 node index.js
-```
+````
