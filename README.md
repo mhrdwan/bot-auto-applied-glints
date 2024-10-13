@@ -38,12 +38,12 @@ https://chromewebstore.google.com/detail/j2team-cookies/okpidcojinmlaakglciglbpc
 
 11. Buka terminal kalian dan ketikan
 
-````bash
+```bash
     npm install
-    ```
+```
 
 12. Jalankan Script
 
 ```bash
 node index.js
-````
+```
